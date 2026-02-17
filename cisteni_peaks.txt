@@ -1,0 +1,6 @@
+Přímé a rekurzivní mazání všech souborů s příponou:
+Lehké čištění od Sequoia files:
+find /cesta/ke/slozce -type f \( -name "*.HDP" -o -name "*.H2" \) -delete
+
+Včetně reapeaks:
+find /cesta/ke/slozce -type f \( -name "*.HDP" -o -name "*.H2" -o -name "*.reapeaks" \) -delete
